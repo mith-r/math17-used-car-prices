@@ -1,0 +1,80 @@
+{
+  "version_A_no_model": {
+    "design_matrix_cols": 69,
+    "PC1_var": 0.040179308503866196,
+    "PC1_PC2_var": 0.07306817173957825,
+    "PC1_PC2_PC3_var": 0.10420596599578857,
+    "top_20_cum_var": 0.4253476560115814,
+    "top_loadings": {
+      "PC1": {
+        "drivetrain_cat_4WD": -0.42461177706718445,
+        "drivetrain_cat_2WD": 0.42461177706718445,
+        "year": -0.36849555373191833,
+        "mileage": 0.3224988579750061,
+        "one_owner": -0.241474911570549,
+        "interior_color_Black": -0.22740104794502258,
+        "interior_color_Gray": 0.22728176414966583,
+        "accidents_or_damage": 0.170359805226326
+      },
+      "PC2": {
+        "fuel_type_cat_gasoline": 0.42939436435699463,
+        "transmission_cat_manual": 0.42115169763565063,
+        "transmission_cat_automatic": -0.42115169763565063,
+        "interior_color_Black": 0.2731567919254303,
+        "fuel_type_cat_hybrid": -0.22609925270080566,
+        "fuel_type_cat_diesel": -0.21040835976600647,
+        "fuel_type_cat_electric": -0.19619220495224,
+        "fuel_type_cat_e85": -0.18481363356113434
+      },
+      "PC3": {
+        "year": 0.32798925042152405,
+        "mileage": -0.3067704141139984,
+        "transmission_cat_automatic": 0.2960304915904999,
+        "transmission_cat_manual": -0.2960304915904999,
+        "fuel_type_cat_gasoline": 0.28592270612716675,
+        "drivetrain_cat_2WD": 0.2791922986507416,
+        "drivetrain_cat_4WD": -0.2791922986507416,
+        "fuel_type_cat_diesel": -0.2781863510608673
+      }
+    }
+  },
+  "version_B_with_model": {
+    "design_matrix_cols": 642,
+    "PC1_var": 0.005308253690600395,
+    "PC1_PC2_var": 0.009909914806485176,
+    "PC1_PC2_PC3_var": 0.014252866618335247,
+    "top_20_cum_var": 0.0717599168419838,
+    "top_loadings": {
+      "PC1": {
+        "drivetrain_cat_4WD": -0.4191220700740814,
+        "drivetrain_cat_2WD": 0.4191220700740814,
+        "year": -0.24651728570461273,
+        "interior_color_Gray": 0.20767438411712646,
+        "mileage": 0.2048608809709549,
+        "interior_color_Black": -0.17931802570819855,
+        "fuel_type_cat_diesel": -0.15520457923412323,
+        "one_owner": -0.14546321332454681
+      },
+      "PC2": {
+        "fuel_type_cat_gasoline": 0.4493459165096283,
+        "fuel_type_cat_electric": -0.33634039759635925,
+        "model_cat_Model": -0.299258291721344,
+        "manufacturer_cat_Tesla": -0.299258291721344,
+        "fuel_type_cat_diesel": -0.2033669799566269,
+        "fuel_type_cat_hybrid": -0.19926771521568298,
+        "transmission_cat_manual": 0.1792791187763214,
+        "transmission_cat_automatic": -0.1792791187763214
+      },
+      "PC3": {
+        "interior_color_Black": 0.34397467970848083,
+        "transmission_cat_automatic": -0.3201380670070648,
+        "transmission_cat_manual": 0.3201380670070648,
+        "interior_color_Gray": -0.27098679542541504,
+        "manufacturer_cat_Nissan": -0.218144491314888,
+        "manufacturer_cat_INFINITI": -0.1694418042898178,
+        "manufacturer_cat_Volvo": -0.1527998298406601,
+        "drivetrain_cat_2WD": 0.12572573125362396
+      }
+    }
+  }
+}
