@@ -1,0 +1,50 @@
+{
+  "n_rows_total": 641406,
+  "n_features_extended": 607,
+  "plain_ls_4_numeric": {
+    "r2": 0.29563900308280167,
+    "rmse": 16147.862821988389
+  },
+  "plain_ls_40_features": {
+    "r2": 0.5441151196680134,
+    "rmse": 12991.072188429594
+  },
+  "plain_ls_extended": {
+    "r2": 0.7850416064053671,
+    "rmse": 8920.611082966394
+  },
+  "ridge_best": {
+    "lambda": 0.001,
+    "r2": 0.7850388690444434,
+    "rmse": 8920.667881991652
+  },
+  "lasso_best": {
+    "lambda": 9.836982727050781,
+    "r2": 0.7836366322689833,
+    "rmse": 8949.716285408007,
+    "features_kept": 552,
+    "features_total": 606,
+    "pruning_by_category": {
+      "Numeric": {
+        "kept": 4,
+        "pruned": 0
+      },
+      "Manufacturers": {
+        "kept": 22,
+        "pruned": 7
+      },
+      "Models": {
+        "kept": 500,
+        "pruned": 43
+      },
+      "Colors": {
+        "kept": 21,
+        "pruned": 3
+      }
+    }
+  },
+  "xgboost": {
+    "r2": 0.8710028678833277,
+    "rmse": 6910.467505902348
+  }
+}
